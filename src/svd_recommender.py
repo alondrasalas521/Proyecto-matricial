@@ -1,4 +1,4 @@
-```python
+
 #!/usr/bin/env python3
 """
 Implementación de sistema de recomendación basado en SVD truncada
@@ -147,4 +147,3 @@ class SVDRecommender:
                 predictions[i] = self.predict(u, it)
 
             return predictions
-```
