@@ -34,7 +34,7 @@ def plot_als_convergence(data_path="data/ml-100k"):
     R_train = build_matrix_from_df(train_df, n_users, n_items)
     R_test = build_matrix_from_df(test_df, n_users, n_items)
 
-    k = 2
+    k = 5
     lambda_reg = 10
     iterations = 30
 
